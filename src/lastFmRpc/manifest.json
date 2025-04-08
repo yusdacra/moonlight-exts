@@ -6,7 +6,7 @@
   "meta": {
     "name": "Last.fm Rich Presence",
     "tagline": "Adds last.fm rich presence",
-    "authors": ["dusk (yusdacra)"],
+    "authors": ["yusdacra"],
     "source": "https://git.gaze.systems/dusk/moonlight-exts"
   },
   "dependencies": ["spacepack", "common"],
@@ -14,13 +14,11 @@
     "username": {
       "displayName": "Username",
       "type": "string",
-      "default": "",
       "description": "Your Last.fm username"
     },
     "apiKey": {
       "displayName": "API key",
       "type": "string",
-      "default": "",
       "description": "Your Last.fm API key"
     },
     "shareUsername": {
