@@ -48,6 +48,7 @@
     },
     "statusName": {
       "displayName": "Custom status text",
+      "description": "added after Listening to / Playing",
       "type": "string",
       "default": "some music"
     },
@@ -55,7 +56,7 @@
       "displayName": "Status text format",
       "type": "select",
       "options": [
-        { "value": "status-name", "label": "use custom status name" },
+        { "value": "status-name", "label": "use custom status text" },
         { "value": "artist-first", "label": "Use 'artist - song' format" },
         { "value": "song-first", "label": "Use 'song - artist' format" },
         { "value": "artist", "label": "Use artist name only" },
@@ -88,6 +89,13 @@
       "type": "boolean",
       "default": true,
       "description": "show Last.fm logo in rich presence by the album cover"
+    },
+    "updateInterval": {
+      "displayName": "Update interval",
+      "type": "number",
+      "default": 10,
+      "description": "seconds to wait between fetching now playing and updating presence",
+      "advice": "restart"
     }
   }
 }

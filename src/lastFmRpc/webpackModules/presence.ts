@@ -91,7 +91,7 @@ let updateInterval: NodeJS.Timeout;
 
 const start = () => {
   updatePresence();
-  updateInterval = setInterval(updatePresence, 1000 * (getOpt<number>("interval") || 10));
+  updateInterval = setInterval(updatePresence, 1000 * (getOpt<number>("updateInterval") || 10));
 };
 
 const stop = () => {
