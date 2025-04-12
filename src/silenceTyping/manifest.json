@@ -5,7 +5,7 @@
   "apiLevel": 2,
   "meta": {
     "name": "Silence Typing Indicator",
-    "tagline": "Disables sending typing indicator so one can see you typing",
+    "tagline": "Disables sending typing indicator so no one can see you typing",
     "authors": ["yusdacra"],
     "source": "https://git.gaze.systems/dusk/moonlight-exts"
   },
