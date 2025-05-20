@@ -1,0 +1,13 @@
+{
+  "$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+  "id": "muteGuildOnJoin",
+  "version": "1.0.0",
+  "apiLevel": 2,
+  "meta": {
+    "name": "Mute Guild on Join",
+    "tagline": "Permanently mutes guilds on join",
+    "authors": ["yusdacra"],
+    "source": "https://git.gaze.systems/90008/moonlight-exts"
+  },
+  "dependencies": ["spacepack"]
+}
