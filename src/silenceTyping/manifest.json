@@ -7,7 +7,7 @@
     "name": "Silence Typing Indicator",
     "tagline": "Disables sending typing indicator so no one can see you typing",
     "authors": ["yusdacra"],
-    "source": "https://git.gaze.systems/dusk/moonlight-exts"
+    "source": "https://git.gaze.systems/90008/moonlight-exts"
   },
   "dependencies": []
 }
